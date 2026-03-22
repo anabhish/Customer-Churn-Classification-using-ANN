@@ -7,7 +7,8 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 
 #load the training model
 
-model = tf.keras.models.load_model('model.keras', compile=False)
+#model = tf.keras.models.load_model('model.keras')
+model = tf.keras.models.load_model('model.h5')
 
 # load the encoders and scaler
 
